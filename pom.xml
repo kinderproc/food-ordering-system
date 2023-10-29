@@ -20,7 +20,6 @@
         <module>order-service</module>
         <module>order-service/order-domain</module>
         <module>order-service/order-application</module>
-        <module>order-service/order-data-access</module>
     </modules>
 
     <properties>
