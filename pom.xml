@@ -18,7 +18,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>order-service</module>
-        <module>order-service/order-domain</module>
     </modules>
 
     <properties>
