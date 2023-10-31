@@ -5,13 +5,11 @@ import java.math.RoundingMode;
 import java.util.Objects;
 
 public class Money {
-
+    public static final Money ZERO = new Money(BigDecimal.ZERO);
     private final BigDecimal amount;
-
     public Money(BigDecimal amount) {
         this.amount = amount;
     }
-
     public boolean isGraterThanZero() {
         return this.amount != null && this.amount.compareTo(BigDecimal.ZERO) > 0;
     }
