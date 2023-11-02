@@ -1,10 +1,9 @@
 package com.food.ordering.system.order.service.domain.entity;
 
 import com.food.ordering.system.domain.entity.AggregateRoot;
-import com.food.ordering.system.domain.value.RestaurantId;
+import com.food.ordering.system.domain.valueobject.RestaurantId;
 
 import java.util.List;
-import java.util.UUID;
 
 public class Restaurant extends AggregateRoot<RestaurantId> {
     private final List<Product> products;
