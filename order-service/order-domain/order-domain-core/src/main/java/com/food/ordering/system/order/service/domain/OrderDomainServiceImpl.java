@@ -16,7 +16,6 @@ import java.util.*;
 
 @Slf4j
 public class OrderDomainServiceImpl implements OrderDomainService {
-
     private static final String UTC = "UTC";
 
     @Override
