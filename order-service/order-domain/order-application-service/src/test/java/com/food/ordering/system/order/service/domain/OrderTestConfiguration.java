@@ -19,24 +19,6 @@ import java.util.UUID;
 
 @SpringBootApplication(scanBasePackages = "com.food.ordering.system")
 public class OrderTestConfiguration {
-    @Autowired
-    private OrderApplicationService orderApplicationService;
-
-    @Autowired
-    private OrderDataMapper orderDataMapper;
-
-    @Autowired
-    private OrderRepository orderRepository;
-
-    @Autowired
-    private CustomerRepository customerRepository;
-
-    @Autowired
-    private RestaurantRepository restaurantRepository;
-
-    private CreateOrderCommand createOrderCommand;
-    private CreateOrderCommand createOrderCommandWrongPrice;
-    private CreateOrderCommand createOrderCommandWrongProductPrice;
 
     @Bean
     public OrderCreatedPaymentRequestMessagePublisher orderCreatedPaymentRequestMessagePublisher() {
