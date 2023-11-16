@@ -20,6 +20,7 @@ public class Order extends AggregateRoot<OrderId> {
     private TrackingId trackingId;
     private OrderStatus orderStatus;
     private List<String> failureMessages;
+    public static final String FAILURE_MESSAGE_DELIMITER = ",";
 
     public static Builder builder() {
         return new Builder();
