@@ -7,6 +7,7 @@ import lombok.Getter;
 import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.List;
+import com.food.ordering.system.domain.valueobject.PaymentStatus;
 
 @Getter
 @Builder
